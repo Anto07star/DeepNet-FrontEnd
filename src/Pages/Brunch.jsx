@@ -6,7 +6,7 @@ function Drinks() {
   const [drinks, setDrinks] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/brunches')
+    axios.get('https://deepnet-backend-2s03.onrender.com/api/brunches')
       .then(response => setDrinks(response.data))
       .catch(error => console.error('Error fetching drinks:', error));
   }, []);
