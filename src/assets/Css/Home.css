@@ -1,0 +1,176 @@
+.menu{
+    color: white;
+    
+}
+.des{
+    color: white;
+}
+.imgee{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.71) 0%, rgba(0, 0, 0, 0.5) 100%);
+  
+
+}
+@media (min-width: 768px) {
+    .imgee{
+        width: 1440px;
+height: 311px;
+top: 98px;
+    }
+    .menu{
+width: 177px;
+height: 111px;
+top: 176px;
+left: 552px;
+position: absolute;
+font-family: Oswald;
+font-weight: 600;
+font-size: 75px;
+line-height: 100%;
+letter-spacing: 3%;
+text-transform: uppercase;
+    }
+    .des{
+        width: 681px;
+height: 44px;
+top: 260px;
+left: 340px;
+position: absolute;
+font-family: Kelly Slab;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .sq{
+        margin-top: -4px;
+    }
+    .sqq{
+width: 1440px;
+height: 79px;
+top: 409px;
+background: #000000CC;
+}
+.pro{
+
+    position: absolute;
+    width: 800px;
+    height: 70px;
+    top: 450px;
+    left: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+.pro1{
+   margin: 10px;
+    width: 114.24561309814453px;
+height: 49.98245620727539px;
+top: 424px;
+left: 536px;
+border: 0.5px solid #0796EF;
+background: #000000;
+font-family: Oswald;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 3%;
+text-transform: uppercase;
+color: white;
+text-align: center;
+padding-top: 15px;
+
+
+
+
+
+
+
+
+}
+
+
+
+}
+@media (max-width: 767px) {
+    .imgee{
+        width: 393px;
+        height: 231px;
+        top: 40px;
+    }
+        .menu {
+            width: 95px;
+            height: 59px;
+            top: 82px;
+            left: 149px;
+            position: absolute;
+            font-family: Oswald;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 100%;
+            letter-spacing: 3%;
+            text-align: center;
+            }
+            .des{
+                width: 361px;
+                height: 40px;
+                top: 146px;
+                left: 16px;
+                
+        position: absolute;
+        font-family: Kelly Slab;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        
+        
+            }
+            .sqq{
+                width: 393px;
+                height: 60px;
+                top: 271px;
+                background: #000000CC;
+            
+                    }
+                    .sq{
+                        margin-top: -4px;
+                    }
+                    .pro{
+                      
+                        position: absolute;
+                        width: 234.66494750976562px;
+                        height: 31.790916442871094px;
+                        top: 280px;
+                        left: 60px;
+                        display: flex;
+    justify-content: space-between;
+                    }
+                    .pro1{
+                        margin: 10px;
+                         width: 80.24561309814453px;
+                     height: 19.98245620727539px;
+                     top: 30px;
+                     left: 56px;
+                     border: 0.5px solid #0796EF;
+                     background: #000000;
+                     font-family: Oswald;
+font-weight: 300;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 3%;
+text-transform: uppercase;
+color: white;
+text-align: center;
+padding-top: 4px;
+
+
+                     
+                     }
+                     
+
+
+
+
+
+}

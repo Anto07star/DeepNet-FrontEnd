@@ -1,0 +1,136 @@
+.footer{
+    background-color: black;
+    margin-top: -4px;
+}
+
+
+@media (min-width: 768px) {
+    .footer{
+        background-color: black;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+       
+
+    }
+    .con{
+        width: 573px;
+height: 134px;
+top: 1255px;
+left: 147px;
+border-width: 1px;
+border-radius: 15px;
+border: 1px solid #506faa;
+
+margin: 30px;
+
+
+    }
+    .cont{
+      
+width: 221px;
+height: 53px;
+top: 1276px;
+left: 272px;
+font-family: Oswald;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 3%;
+text-transform: uppercase;
+margin-left: 80px;
+margin-top: 10px;
+text-align: center;
+color:  #0796EF;
+
+
+    }
+    .dee{
+        width: 212px;
+height: 45.20547866821289px;
+top: 1315.01px;
+left: 1001px;
+margin-left: 80px;
+margin-top: 1px;
+opacity: 0.6;
+font-family: Kelly Slab;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 2px;
+text-align:center;
+color: rgba(206, 198, 198, 0.801);
+
+    }
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .footer{
+        width: 393px;
+height: 382px;
+top: 866px;
+background-color: black;
+display: block;
+padding: 10px;
+
+
+    }
+    .con{
+        width: 220px;
+height: 74px;
+top: 1255px;
+left: 147px;
+border-width: 1px;
+border-radius: 15px;
+border: 1px solid #506faa;
+margin-left: 50px;
+
+margin-top: 30px;
+}
+.cont{
+      
+    width: 221px;
+    height: 53px;
+    top: 1276px;
+    left: 272px;
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color:  #0796EF;
+    
+    
+        }
+        .dee{
+            width: 212px fixed;
+    height: 65.20547866821289px;
+    top: 1315.01px;
+    left: 1001px;
+    margin-left: 60px;
+    margin-top: -50px;
+    opacity: 0.6;
+    font-family: Kelly Slab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 2px;
+    text-align:start;
+    color: rgba(206, 198, 198, 0.801);
+    padding: 15px;
+    
+        }
+    }
+

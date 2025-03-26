@@ -1,0 +1,161 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #121618;
+    color: white;
+
+ 
+
+  }
+  .logo{
+    margin-left: 40px;
+    width: 86px;
+height: 76px;
+top: 60px;
+left: 168px;
+
+   
+  }
+  
+  .logo,img{
+    width: 124px;
+    height: 52px;
+    top: 92px;
+    left: 270px;
+
+ 
+    
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+  
+
+
+  }
+  
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  /* Desktop Styles */
+  @media (min-width: 768px) {
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      color: white;
+      width: 1440px;
+      height: 100px;
+      top: -2px;
+     
+      
+  
+   
+  
+    }
+    .nav {
+      display: flex;
+      width: 440px;
+      height: 40px;
+      top: -2px;
+      float: right;
+      margin-right: 80px;
+      font-family: Oswald;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 3%;
+align-items: center;
+
+      
+     
+    }
+  
+    .menu-icon {
+      display: none; /* No need for hamburger menu on desktop */
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 767px) {
+    .nav {
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 60px;
+      width: 250px;
+      background-color: #0f0f0f;
+      text-align: center;
+      z-index: 1;
+      padding: 10px;
+    }
+    .header{
+      width: 393px;
+      height: 40px;
+      
+    }
+
+     .nav.mobile-open {
+      display: block;
+    } 
+  
+    .nav ul {
+      flex-direction: column;
+      /* padding: 10px; */
+
+
+    }
+  
+    .nav ul li a {
+      padding: 10px;
+  
+    }
+  
+    .menu-icon {
+      display: block; /* Hamburger menu icon for mobile */
+    }
+    .logo{
+      width: 50px;
+     height: 44px;
+     top: 18px;
+     left: 220px;
+     
+        
+       }
+       
+       .logo,img{
+         width: 50px;
+         height: 44px;
+         top: 18px;
+         left: 172px;
+         
+         
+       }
+  }
+  
