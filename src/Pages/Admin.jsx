@@ -8,7 +8,7 @@ function Admin() {
     name: "",
     description: "",
     price: "",
-    category: "Food", // Default category
+    category: "", 
   });
 
   const handleSubmit = async (e) => {
@@ -16,7 +16,7 @@ function Admin() {
     try {
       const response = await axios.post("https://deepnet-backend-2s03.onrender.com/api/add-item", formData);
       alert(response.data.message);
-      setFormData({ name: "", description: "", price: "", category: "Food" });
+      setFormData({ name: "", description: "", price: "", category: "" });
     } catch (error) {
       console.error("Error:", error);
       alert("Failed to add item");

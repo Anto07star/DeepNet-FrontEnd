@@ -1,6 +1,7 @@
 
 .list{
     margin-top: -4px;
+ 
 }
 
 .head{
@@ -59,26 +60,32 @@ text-align: center;
         left: 95px;
     }
     .li{
-        width: 1200px;
+        width: 500px;
 padding: 8px;
 height: 98px;
 top: 803px;
-left: 231px;
 color: white;
 line-height: 100%;
 letter-spacing: 3%;
 text-transform: uppercase;
-margin: 20px;
+margin-left: 200px;
 border: 1px solid rgba(73, 72, 72, 0.534);
+background-color: red;
+margin-top: 15px;
+margin-bottom: 10px;
+
 
 
     }
     .mli{
         width: 980px;
-        height: 200px;
+      
         margin-left: 70px;
-        display: flex;
+        display: block;
         margin-top: 40px;
+
+      
+      
        
         
       
@@ -100,7 +107,7 @@ padding: 8px;
     .desc{
         width: 372px;
 height: 44px;
-top: 841px;
+top: 831px;
 left: 231px;
 opacity: 0.6;
 font-family: Kelly Slab;
@@ -109,6 +116,7 @@ font-size: 16px;
 line-height: 100%;
 letter-spacing: 0%;
 padding: 2px;
+overflow: hidden;
 
 
     }
