@@ -14,7 +14,7 @@ function Admin() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/add-item", formData);
+      const response = await axios.post("https://deepnet-backend-2s03.onrender.com/api/add-item", formData);
       alert(response.data.message);
       setFormData({ name: "", description: "", price: "", category: "Food" });
     } catch (error) {
